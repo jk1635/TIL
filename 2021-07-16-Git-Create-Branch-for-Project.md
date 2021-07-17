@@ -56,4 +56,7 @@ To https://github.com/Tenor-clone-coding/tenor-front-service
 $ git checkout -b feature/kjy
 Switched to a new branch 'feature/kjy'
 Compiled successfully!
+
+// 원격 저장소에 branch 올리는 것
+git push origin feature/kjy
 ```
