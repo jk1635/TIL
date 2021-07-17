@@ -1,7 +1,6 @@
 ## Git Branch MEMO
 
 ```shell
-
 // branch 확인
 git branch
 
@@ -29,12 +28,10 @@ git checkout -b 브랜치명(기능branch명 ex:feature/#5)
     $ git push origin --delete feature/#5
 
   - 옮겨간 새 기능 branch에서 develop내용 원격으로 push해서 원격에도 새 기능 branch 적용시키기
-    $ git push origin 브랜치명
-
+    $ git push origin 브랜치명  
 ```
 
 ## Git Branch 실적용
-
 develop에서 새로운 값 pull하고 기존 기능 branch삭제 후 새로 만들기
 ```shell
 /c/git_test/tenor-front-service (feature/kjy)
@@ -57,6 +54,21 @@ $ git checkout -b feature/kjy
 Switched to a new branch 'feature/kjy'
 Compiled successfully!
 
-// 원격 저장소에 branch 올리는 것
-git push origin feature/kjy
+/c/git_test/tenor-front-service (feature/kjy)
+$ git branch
+  develop
+* feature/kjy
+  main
+
+// develop에서 받아왔을땐 새로 설치된 것이 있을 수도 있기 때문에 한번 확인해본다.
+$ yarn install
+```
+
+## 원격 저장소에 branch 올리기
+```shell
+$ git status
+$ git add .
+$ git status
+$ git commit -m "OOO changed"
+$ git push origin feature/kjy
 ```
