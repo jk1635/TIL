@@ -31,7 +31,7 @@ git checkout -b 브랜치명(기능branch명 ex:feature/#5)
     $ git push origin 브랜치명  
 ```
 
-## Git Branch 실적용
+## Git Branch 실적용 /// 받으라고 할때!!!!!!!!
 develop에서 새로운 값 pull하고 기존 기능 branch삭제 후 새로 만들기
 ```shell
 /c/git_test/tenor-front-service (feature/kjy)
