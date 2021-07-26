@@ -32,6 +32,12 @@ $ git push origin feature/kjy
 
 // develop에서 받아왔을땐 새로 설치된 것이 있을 수도 있기 때문에 한번 확인해본다.
 $ yarn install
+
+// commit한게 다 뜬다
+$ git log
+
+// 기록 싹 다 뜬다 지운 것도 뜬다 (복구할때 확인할 수 있다)
+$ git reflog
 ```
 
 ## 원격 저장소에 branch 올리기
