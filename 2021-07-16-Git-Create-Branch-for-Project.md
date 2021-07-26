@@ -40,6 +40,7 @@ $ git status
 $ git add .
 $ git status
 $ git commit -m "OOO changed"
+$ git commit -m "커밋메시지" -m "description"
 $ git push origin feature/kjy
 ```
 
