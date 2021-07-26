@@ -50,6 +50,66 @@ $ git commit -m "커밋메시지" -m "description"
 $ git push origin feature/kjy
 ```
 
+## Git Project Start
+
+```shell
+/c/
+$ git clone https://github.com/whereToGoTomorrow/FrontEnd.git
+
+/c/FrontEnd (master)
+$ yarn install
+
+/c/FrontEnd (master)
+$ yarn start
+
+/c/FrontEnd (master)    
+$ git branch -a 
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/feature/home
+  remotes/origin/master
+
+/c/FrontEnd (master)
+$ git checkout -b feature/detail
+Switched to a new branch 'feature/detail'
+
+/c/FrontEnd (feature/detail)
+$ git branch -a
+* feature/detail
+  master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/feature/home
+  remotes/origin/master
+
+/c/FrontEnd (feature/detail)
+$ git remote update
+Fetching origin
+From https://github.com/whereToGoTomorrow/FrontEnd
+ * [new branch]      option     -> origin/option    
+
+/c/FrontEnd (feature/detail)
+$ git push origin feature/detail
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'feature/detail' on GitHub by visiting:
+remote:      https://github.com/whereToGoTomorrow/FrontEnd/pull/new/feature/detail
+remote:
+ * [new branch]      feature/detail -> feature/detail    
+
+/c/FrontEnd (feature/detail) 
+$ git pull origin master
+From https://github.com/whereToGoTomorrow/FrontEnd       
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+/c/FrontEnd (feature/detail) 
+$ git status
+On branch feature/detail
+nothing to commit, working tree clean
+
+```
+
+
 ## Git Branch MEMO
 
 ```shell
