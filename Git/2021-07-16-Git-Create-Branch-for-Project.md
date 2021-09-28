@@ -1,5 +1,7 @@
 ## Git Branch 실적용 /// 받으라고 할때!!!!!!!!
+
 develop에서 새로운 값 pull하고 기존 기능 branch삭제 후 새로 만들기
+
 ```shell
 /c/git_test/tenor-front-service (feature/kjy)
 $ git checkout develop
@@ -26,7 +28,7 @@ $ git branch
   develop
 * feature/kjy
   main
-  
+
 /c/git_test/tenor-front-service (feature/kjy)
 $ git push origin feature/kjy
 
@@ -41,6 +43,7 @@ $ git reflog
 ```
 
 ## 원격 저장소에 branch 올리기
+
 ```shell
 $ git status
 $ git add .
@@ -54,61 +57,59 @@ $ git push origin feature/kjy
 
 ```shell
 /c/
-$ git clone https://github.com/whereToGoTomorrow/FrontEnd.git
+$ git clone
+https://github.com/Tenor-clone-coding/tenor-front-service.git
 
-/c/FrontEnd (master)
+/c/tenor-front-service (main)
 $ yarn install
 
-/c/FrontEnd (master)
+/c/tenor-front-service (main)
 $ yarn start
 
-/c/FrontEnd (master)    
-$ git branch -a 
-* master
-  remotes/origin/HEAD -> origin/master
-  remotes/origin/feature/home
-  remotes/origin/master
-
-/c/FrontEnd (master)
-$ git checkout -b feature/detail
-Switched to a new branch 'feature/detail'
-
-/c/FrontEnd (feature/detail)
+/c/tenor-front-service (main)
 $ git branch -a
-* feature/detail
-  master
-  remotes/origin/HEAD -> origin/master
-  remotes/origin/feature/home
-  remotes/origin/master
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/feature/lsj
 
-/c/FrontEnd (feature/detail)
+/c/tenor-front-service (main)
+$ git checkout -b feature/kjy
+Switched to a new branch 'feature/kjy'
+
+/c/tenor-front-service (feature/kjy)
+$ git branch -a
+* feature/kjy
+  main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/feature/lsj
+
+/c/tenor-front-service (feature/kjy)
 $ git remote update
 Fetching origin
-From https://github.com/whereToGoTomorrow/FrontEnd
- * [new branch]      option     -> origin/option    
+From https://github.com/Tenor-clone-coding/tenor-front-service
+ * [new branch]      option     -> origin/option
 
-/c/FrontEnd (feature/detail)
-$ git push origin feature/detail
+/c/tenor-front-service (feature/kjy)
+$ git push origin feature/kjy
 Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
-remote: 
-remote: Create a pull request for 'feature/detail' on GitHub by visiting:
-remote:      https://github.com/whereToGoTomorrow/FrontEnd/pull/new/feature/detail
 remote:
- * [new branch]      feature/detail -> feature/detail    
+remote: Create a pull request for 'feature/kjy' on GitHub by visiting:
+remote:      https://github.com/Tenor-clone-coding/tenor-front-service/pull/new/feature/kjy
+remote:
+ * [new branch]      feature/kjy -> feature/kjy
 
-/c/FrontEnd (feature/detail) 
-$ git pull origin master
-From https://github.com/whereToGoTomorrow/FrontEnd       
- * branch            master     -> FETCH_HEAD
+/c/tenor-front-service (feature/kjy)
+$ git pull origin main
+From https://github.com/Tenor-clone-coding/tenor-front-service
+ * branch            main     -> FETCH_HEAD
 Already up to date.
 
-/c/FrontEnd (feature/detail) 
+/c/tenor-front-service (feature/kjy)
 $ git status
-On branch feature/detail
+On branch feature/kjy
 nothing to commit, working tree clean
 
 ```
-
 
 ## Git Branch MEMO
 
@@ -125,11 +126,11 @@ git checkout -b 브랜치명(기능branch명 ex:feature/#5)
 // 주의
   1. branch 이용시 현재 branch에서 변경사항이 생기면 그 해당 branch에만 push 가능하다.
      즉, 꼭! 수정 전에, 코드 작성 전에 나의 현재 branch 위치가 기능 branch인지 확인!
-     
+
   2. 기능 개발 완료 후 branch 관리
-  
+
    - 각자 기능 브랜치에 push 이후 pr -> merge confirm되면
-     
+
    - vscode 상에서 현재 branch위치 develop으로 이동
     $ git checkout develop
 
@@ -140,5 +141,5 @@ git checkout -b 브랜치명(기능branch명 ex:feature/#5)
     $ git push origin --delete feature/#5
 
   - 옮겨간 새 기능 branch에서 develop내용 원격으로 push해서 원격에도 새 기능 branch 적용시키기
-    $ git push origin 브랜치명  
+    $ git push origin 브랜치명
 ```
