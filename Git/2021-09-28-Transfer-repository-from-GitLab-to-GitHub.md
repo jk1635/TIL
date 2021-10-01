@@ -15,7 +15,7 @@ cd [원본 저장소 이름].git
 2. 이동할 원격 저장소 경로 지정
 
 ```shell
-git remote set-url --push origin [이동할 원격 저장소]
+git remote set-url --push origin [이동할 원격 저장소 경로]
 ```
 
 3. 원격 저장소에 push
@@ -30,4 +30,22 @@ git push --mirror
 
 ```shell
 git push --mirror [이동할 원격 저장소]
+```
+---
+### 실제 사용한 명령어
+
+```shell
+# git config 설정
+git config --global user.name "green*****16**"
+git config --global user.email "1*****@naver.com"
+
+# gitlab clone
+git clone --mirror https://lala-gitlab.hahahoho.io/16**/javascript_plus.git
+cd javascript_plus.git
+
+# github repository url
+git remote set-url --push origin https://github.com/green*****16**/javascript_plus.git
+
+# mirror
+git push --mirror
 ```
