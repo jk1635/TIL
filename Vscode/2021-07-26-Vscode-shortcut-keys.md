@@ -1,7 +1,7 @@
 ## ES7 React/Redux/GraphQL/React-Native snippets
 
 rfc
-```shell
+```jsx
 import React from 'react'
 
 export default function $1() {
@@ -10,7 +10,7 @@ export default function $1() {
 ```
 
 rfce
-```shell
+```jsx
 import React from 'react'
 
 function $1() {

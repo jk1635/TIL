@@ -2,7 +2,7 @@
 
 __Card.js__
 
-```shell
+```jsx
 // Card.js
 
 import styled from "styled-components";
@@ -161,7 +161,7 @@ export default Card;
 
 ```
 __Time.js__
-```shell
+```jsx
 // Time.js
 
 import moment from "moment";
@@ -190,7 +190,7 @@ export default timeForToday;
 
 ```
 __db.json__
-```shell
+```jsx
 // db.json
 
 {

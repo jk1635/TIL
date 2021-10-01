@@ -9,7 +9,7 @@ _2. 메소드 함수가 아닌 곳에 가장 적당하다._
 
 __함수 표현식과 화살표 표현식의 차이__
 
-```shell
+```javascript
 
 // 함수 표현식
 function () {}
@@ -21,7 +21,7 @@ function () {}
 
 
 __화살표 함수 사용해보기__
-```shell
+```javascript
 const add = (a, b) => {
   return a + b;
 };

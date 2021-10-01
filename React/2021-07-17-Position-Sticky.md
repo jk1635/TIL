@@ -3,7 +3,7 @@
 Form의 position을 sticky로 지정 후 top 속성을 0으로 주어 스크롤바가 내려가면 따라오게 한다.
 
 
-```shell
+```jsx
 // SearchBar.js
 
 const SearchBar = () => {
@@ -35,7 +35,7 @@ const Container = styled.div`
 
 ```
 
-```shell
+```jsx
 //App.js
 
 function App() {

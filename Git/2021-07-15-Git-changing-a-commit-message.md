@@ -1,17 +1,17 @@
 ## 가장 마지막 commit 내용 수정
 
-```
-git commit --amend
+```bash
+$ git commit --amend
 
-// 수정완료 후 Esc 누르고
+# 수정완료 후 Esc 누르고
 
 :wq
 ```
 
 ## 특정 commit 내용 수정
 
-```
-git rebase -i HEAD~2
+```bash
+$ git rebase -i HEAD~2
 # 2는 거슬러 올라가는 commit의 수
 
 pick 1bdca1... <commiiiiiiiiiiiiiiiit>
@@ -24,6 +24,6 @@ pick asdf12... <commit>
 
 # ESC 누른 후 :wq!
 
-git push -f origin main
+$ git push -f origin main
 
 ```

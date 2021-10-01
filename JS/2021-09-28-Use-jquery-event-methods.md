@@ -5,7 +5,7 @@
 -   타입, 아이디, 클래스 등으로 HTML 엘리먼트를 찾거나(선택하기 위해) 사용
 -   CSS Selector와 동일
 
-```js
+```javascript
 // The element Selector
 $("p");
 // The #id Selector
@@ -16,7 +16,7 @@ $(".test");
 
 -   선택자 예시
 
-```js
+```javascript
 $(function () {
     $("h1").css("background-color", "blue");
     $("#background-blue").css("background-color", "yellow");
@@ -34,7 +34,7 @@ $(function () {
 
 ### mouse hover
 
-```js
+```javascript
 // mouse 올리면 red, 떼면 blue
 // jQuery의 this
 
@@ -50,7 +50,7 @@ $("#mouse-event").hover(
 
 ### mouse enter, leave, click
 
-```js
+```javascript
 // mouse 올리면 yellow, 떼면 pink, 클릭하면 gray
 
 $("h1").mouseenter(function () {
@@ -78,7 +78,7 @@ $("h1").click(function () {
 </body>
 ```
 
-```js
+```javascript
 // 1.
 $("#hide").click(function () {
     $("h1").hide();
@@ -94,7 +94,7 @@ $("#toggle").click(function () {
 });
 ```
 
-```js
+```javascript
 // 2.
 function disappear() {
     $("h1").css("display", "none");
@@ -110,7 +110,7 @@ $("#show").click(appear);
 
 ### addEventListener 사용
 
-```js
+```javascript
 const text = document.querySelectorAll("h1");
 const hideBtn = document.getElementById("hide");
 const showBtn = document.getElementById("show");
@@ -158,7 +158,7 @@ showBtn.addEventListener("click", appear);
 }
 ```
 
-```js
+```javascript
 $("button").click(function () {
     $("h1").addClass("blue");
     $("h2").addClass("important");
@@ -197,7 +197,7 @@ $("#btn3").click(function () {
 }
 ```
 
-```js
+```javascript
 // 1.
 let $icon = $(".icon");
 
@@ -209,7 +209,7 @@ $icon.click(function () {
 });
 ```
 
-```js
+```javascript
 // 2.
 let $icon = $(".icon");
 
