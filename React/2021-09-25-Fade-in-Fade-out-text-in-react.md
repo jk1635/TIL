@@ -1,6 +1,6 @@
 ## Fade-in / Fade-out
 
-```javascript
+```jsx
 // MainTitle.js
 import React from "react";
 import styled from "styled-components";
@@ -50,7 +50,7 @@ export default MainTitle;
 }
 ```
 
-```javascript
+```jsx
 // Fader.js
 
 import React, { useState, useEffect } from "react";
