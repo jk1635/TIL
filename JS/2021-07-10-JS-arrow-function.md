@@ -27,14 +27,14 @@ function () {}
 
 **화살표 함수 사용해보기**
 ```jsx
-const a = (a, b) => {
+const add = (a, b) => {
   return a + b;
 };
 
 // 만약에 위와 같이 코드 블록 내부에서 바로 return 을 하는 경우는
 // 다음과 같이 줄여서 쓸 수도 있다.
 
-const a = (a, b) => a + b;
+const add = (a, b) => a + b;
 ```
 
 ```jsx
