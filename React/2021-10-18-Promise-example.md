@@ -1,5 +1,39 @@
-## Promise example
+# Promise
+Promise는 객체의 비동기 작업이 맞이할 미래의 완료 또는 실패와 그 결과 값을 나타낸다.</br>
 
+Promise는 생성하고 종료될 때까지 다음 중 하나의 상태(State)를 갖는다.</br>
+
+- Pending(대기) : 비동기 처리 로직이 아직 완료되지 않은 상태
+- Fulfilled(이행) : 비동기 처리가 완료되어 프로미스가 결과 값을 반환해준 상태
+- Rejected(실패) : 비동기 처리가 실패하거나 오류가 발생한 상태
+
+## Promise 에러 처리 방법
+
+1. then()의 두 번째 인자로 에러를 처리하는 방법</br>
+2. catch()를 이용하는 방법
+
+```jsx
+function getData() {
+  return new Promise(function(resolve, reject) {
+    reject('failed');
+  });
+}
+
+// 1. then()의 두 번째 인자로 에러를 처리하는 방법
+getData().then(function() {
+  // ...
+}, function(err) {
+  console.log(err);
+});
+
+// 2. catch()로 에러를 처리하는 방법
+getData().then().catch(function(err) {
+  console.log(err);
+});
+```
+Promise 에러는 가급적 catch()로 처리하는 것이 효율적이다.
+
+## Promise example
 ```jsx
 "use strict";
 // Promise is a JavaScript object for asynchronous operation.
@@ -16,7 +50,8 @@ const promise = new Promise((resolve, reject) => {
   console.log("doing something...");
   setTimeout(() => {
     // resolve('ellie');
-    reject(new Error("no network")); //reject는 보통 error라는 오브젝트를 통해서 값을 전달, 어떤 에러가 발생했는지 이유를 잘 명시해야한다.
+    reject(new Error("no network"));
+    //reject는 보통 error라는 오브젝트를 통해서 값을 전달, 어떤 에러가 발생했는지 이유를 잘 명시해야 한다.
     // 기능을 잘 수행했어! 라고 한다면 resolve라는 콜백함수를 호출하면 된다.
   }, 2000);
 });
@@ -106,4 +141,4 @@ getHen() //
 // promise chain이 실패하지 않고 결국은 요리가 됐다.
 ```
 
-참고 : [Dreamcoding Ellie](https://youtu.be/JB_yU6Oe2eE), [source](https://github.com/dream-ellie/learn-javascript)
+참고 : [Dreamcoding Ellie](https://youtu.be/JB_yU6Oe2eE), [source](https://github.com/dream-ellie/learn-javascript), [Captain Pangyo](https://joshua1988.github.io/web-development/javascript/promise-for-beginners/#promise%EA%B0%80-%EB%AD%94%EA%B0%80%EC%9A%94)
