@@ -1,6 +1,6 @@
-## Callback
+# Callback
 
-### Difference between Synchronous and Asynchronous
+## Difference between Synchronous and Asynchronous
 
 ```jsx
 "use strict";
@@ -32,7 +32,7 @@ printWithDelay(() => console.log("async callback"), 2000); // 비동기
 // 2
 // async callback
 ```
-### Callback Hell
+## Callback Hell
 
 - 가독성이 떨어진다.
 - error가 발생한 경우, debugging 해야하는 경우 해결하기 어렵다.
@@ -90,6 +90,46 @@ userStorage.loginUser(
     console.log(error);
   }
 );
+```
+## Callback to promise
+
+```jsx
+// Callback to promise
+class UserStorage {
+  loginUser(id, password) {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        if ((id === "ellie" && password === "dream") ||
+        (id === "coder" && password === "academy")) {
+          resolve(id);
+        } else {
+          reject(new Error("not found"));
+        }
+      }, 2000);
+    });
+  }
+
+  getRoles(user) {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        if (user === "ellie") {
+          resolve({ name: "ellie", role: "admin" });
+        } else {
+          reject(new Error("no access"));
+        }
+      }, 1000);
+    });
+  }
+}
+
+const userStorage = new UserStorage();
+const id = prompt("enter your id");
+const password = prompt("enter your passrod");
+userStorage
+  .loginUser(id, password)
+  .then(userStorage.getRoles)
+  .then(user => alert(`Hello ${user.name}, you have a ${user.role} role`))
+  .catch(console.log);
 ```
 
 참고 : [Dreamcoding Ellie](https://youtu.be/s1vpVCrT8f4), [source](https://github.com/dream-ellie/learn-javascript)
