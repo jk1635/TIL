@@ -8,6 +8,15 @@ $ git commit --amend
 :wq
 ```
 
+```bash
+:wq 저장종료
+:q 종료
+:w 저장
+:wq! 강제종료저장
+:q! 강제종료
+:w! 강제저장
+```
+
 ## 특정 commit 내용 수정
 
 ```bash
