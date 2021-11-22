@@ -53,7 +53,7 @@ const DataFetchting = () => {
 export default DataFetchting;
 ```
 
-### Input에 id 입력시 화면에 Data 출력
+## Input에 id 입력시 화면에 Data 출력
 
 ```jsx
 // DataFetching.js
