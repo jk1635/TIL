@@ -1,5 +1,8 @@
 ## Pagination 구현
 
+- slice를 이용하여 pagination을 구현
+- page number 클릭시 해당 페이지로 이동
+
 ```jsx
 //App.js
 import React, { useState, useEffect } from "react";
@@ -46,7 +49,6 @@ export default App;
 
 ```jsx
 //../components/Pagination.js
-
 import React from "react";
 
 const Pagination = ({ postsPerPage, totalPosts, paginate }) => {
@@ -97,4 +99,4 @@ const Posts = ({ posts, loading }) => {
 export default Posts;
 ```
 
-[source](https://youtu.be/IYCa1F-OWmk)
+참고 : [Traversy](https://youtu.be/IYCa1F-OWmk)
