@@ -4,7 +4,7 @@
 - page number 클릭시 해당 페이지로 이동
 
 ```jsx
-//App.js
+// App.js
 import React, { useState, useEffect } from "react";
 import Pagination from "../components/Pagination";
 import Posts from "../components/Posts";
@@ -48,7 +48,7 @@ export default App;
 ```
 
 ```jsx
-//../components/Pagination.js
+// ../components/Pagination.js
 import React from "react";
 
 const Pagination = ({ postsPerPage, totalPosts, paginate }) => {
@@ -77,7 +77,7 @@ export default Pagination;
 ```
 
 ```jsx
-//../components/Posts.js
+// ../components/Posts.js
 import React from "react";
 
 const Posts = ({ posts, loading }) => {
