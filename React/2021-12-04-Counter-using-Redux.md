@@ -1,4 +1,4 @@
-# Redux tutorial
+# Counter using redux
 
 ## counter
 
@@ -35,7 +35,7 @@ ReactDOM.render(
 
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { increment, decrement } from "./actions";
+import { increment, decrement, incrementByAmount } from "./actions";
 
 function App() {
   const counter = useSelector(state => state.counter);
@@ -45,9 +45,9 @@ function App() {
   return (
     <div className="App">
       <h1>Counter {counter}</h1>
-      {/* <button onClick={() => dispatch(increment())}>+</button> */}
-      <button onClick={() => dispatch(increment(5))}>+5</button>
+      <button onClick={() => dispatch(increment())}>+</button>
       <button onClick={() => dispatch(decrement())}>-</button>
+      <button onClick={() => dispatch(incrementByAmount(5))}>+5</button>
       {isLogged ? <h3>Valuable Information I shouldn't see</h3> : ""}
     </div>
   );
@@ -63,12 +63,12 @@ export default App;
 
 const counterReducer = (state = 0, action) => {
   switch (action.type) {
-    // case "INCREMENT":
-    //   return state + 1;
     case "INCREMENT":
-      return state + action.payload;
+      return state + 1;
     case "DECREMENT":
       return state - 1;
+    case "INCREMENTBYAMOUNT":
+      return state + action.payload;
     default:
       return state;
   }
@@ -117,20 +117,20 @@ export default allReducers;
 ```jsx
 // actions/index.js
 
-// export const increment = () => {
-//   return {
-//     type: "INCREMENT",
-//   };
-// };
-export const increment = multiply => {
+export const increment = () => {
   return {
     type: "INCREMENT",
-    payload: multiply,
   };
 };
 export const decrement = () => {
   return {
     type: "DECREMENT",
+  };
+};
+export const incrementByAmount = multiply => {
+  return {
+    type: "INCREMENTBYAMOUNT",
+    payload: multiply,
   };
 };
 ```
