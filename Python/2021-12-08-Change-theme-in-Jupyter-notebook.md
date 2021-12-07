@@ -29,6 +29,24 @@ jt -l
 
 # 테마 선택
 jt -t [theme name]
+
+# toolbar 추가
+jt -t [theme name] -T
+
+# filename, logo 추가
+jt -t [theme name] -N
+
+# kernel logo 추가
+jt -t [theme name] -kl
+
+# 다 추가
+jt -t [theme name] -T -N -kl
+
+# Notebook Font Size도 추가
+jt -t [theme name] -T -N -kl -nfs 10
+
+# 기본 테마로
+jt -r
 ```
 
 ### Command Line Usage
