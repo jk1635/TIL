@@ -3,33 +3,33 @@
 develop에서 새로운 값 pull하고 기존 기능 branch삭제 후 새로 만들기
 
 ```bash
-/c/git_test/tenor-front-service (feature/kjy)
+/c/git_test/frontend-service (feature/kjy)
 $ git checkout develop
 
-/c/git_test/tenor-front-service (develop)
+/c/git_test/frontend-service (develop)
 $ git pull origin develop
 
-/c/git_test/tenor-front-service (develop)
+/c/git_test/frontend-service (develop)
 $ git branch -d feature/kjy
 Deleted branch feature/kjy (was 245b764).
 
-/c/git_test/tenor-front-service (develop)
+/c/git_test/frontend-service (develop)
 $ git push origin --delete feature/kjy
-To https://github.com/Tenor-clone-coding/tenor-front-service
+To https://github.com/ABC-clone-coding/frontend-service
  - [deleted]         feature/kjy
 
-/c/git_test/tenor-front-service (develop)
+/c/git_test/frontend-service (develop)
 $ git checkout -b feature/kjy
 Switched to a new branch 'feature/kjy'
 Compiled successfully!
 
-/c/git_test/tenor-front-service (feature/kjy)
+/c/git_test/frontend-service (feature/kjy)
 $ git branch
   develop
 * feature/kjy
   main
 
-/c/git_test/tenor-front-service (feature/kjy)
+/c/git_test/frontend-service (feature/kjy)
 $ git push origin feature/kjy
 
 # develop에서 받아왔을땐 새로 설치된 것이 있을 수도 있기 때문에 한번 확인해본다.
@@ -58,53 +58,53 @@ $ git push origin feature/kjy
 ```bash
 /c/
 $ git clone
-https://github.com/Tenor-clone-coding/tenor-front-service.git
+https://github.com/ABC-clone-coding/frontend-service.git
 
-/c/tenor-front-service (main)
+/c/frontend-service (main)
 $ yarn install
 
-/c/tenor-front-service (main)
+/c/frontend-service (main)
 $ yarn start
 
-/c/tenor-front-service (main)
+/c/frontend-service (main)
 $ git branch -a
 * main
   remotes/origin/HEAD -> origin/main
-  remotes/origin/feature/lsj
+  remotes/origin/feature/lea
 
-/c/tenor-front-service (main)
+/c/frontend-service (main)
 $ git checkout -b feature/kjy
 Switched to a new branch 'feature/kjy'
 
-/c/tenor-front-service (feature/kjy)
+/c/frontend-service (feature/kjy)
 $ git branch -a
 * feature/kjy
   main
   remotes/origin/HEAD -> origin/main
-  remotes/origin/feature/lsj
+  remotes/origin/feature/lea
 
-/c/tenor-front-service (feature/kjy)
+/c/frontend-service (feature/kjy)
 $ git remote update
 Fetching origin
-From https://github.com/Tenor-clone-coding/tenor-front-service
+From https://github.com/ABC-clone-coding/frontend-service
  * [new branch]      option     -> origin/option
 
-/c/tenor-front-service (feature/kjy)
+/c/frontend-service (feature/kjy)
 $ git push origin feature/kjy
 Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
 remote:
 remote: Create a pull request for 'feature/kjy' on GitHub by visiting:
-remote:      https://github.com/Tenor-clone-coding/tenor-front-service/pull/new/feature/kjy
+remote:      https://github.com/ABC-clone-coding/frontend-service/pull/new/feature/kjy
 remote:
  * [new branch]      feature/kjy -> feature/kjy
 
-/c/tenor-front-service (feature/kjy)
+/c/frontend-service (feature/kjy)
 $ git pull origin main
-From https://github.com/Tenor-clone-coding/tenor-front-service
+From https://github.com/ABC-clone-coding/frontend-service
  * branch            main     -> FETCH_HEAD
 Already up to date.
 
-/c/tenor-front-service (feature/kjy)
+/c/frontend-service (feature/kjy)
 $ git status
 On branch feature/kjy
 nothing to commit, working tree clean
