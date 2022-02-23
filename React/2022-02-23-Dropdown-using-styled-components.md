@@ -50,7 +50,7 @@ const MenuContainer = styled.div`
 `;
 
 const TriggerButton = styled.button`
-  background: var(--white);
+  background: #ffffff;
   border-radius: 90px;
   cursor: pointer;
   display: flex;
