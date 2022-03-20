@@ -1,11 +1,34 @@
 # Dropdown using Styled-Components
 
-```jsx
-// DropDown.js
+### App.js
 
+```jsx
+import React from "react";
+import styled from "styled-components";
+
+import DropDown from "./DropDown";
+
+function App() {
+  return (
+    <Wrapper>
+      <DropDown />
+    </Wrapper>
+  );
+}
+
+const Wrapper = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
+export default App;
+```
+
+### DropDown.jsx
+
+```jsx
 import React, { useRef } from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 import useDetectOutsideClick from "./useDetectOutsideClick";
 
 const DropDown = () => {
@@ -16,26 +39,32 @@ const DropDown = () => {
   return (
     <MenuContainer>
       <TriggerButton onClick={onClick}>
-        <MenuTitle>Dropdown</MenuTitle>
         <Image
           src='https://mblogthumb-phinf.pstatic.net/20141020_84/ribbonchick_1413740254883HpC05_JPEG/01.jpg?type=w420'
           alt='arrow'
         />
       </TriggerButton>
+
       <Nav
         ref={dropdownRef}
         className={`menu ${isActive ? "active" : "inactive"}`}
       >
         <MenuList>
           <Item>
-            <Link to='/intro'>intro</Link>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim earum
+            at, quaerat odio facere ea repellat, adipisci vitae dolores omnis,
+            aliquid magni recusandae deserunt provident delectus esse debitis
+            dignissimos reprehenderit.
+          </Item>
+          {/* <Item>
+            <a href='main'>main</a>
           </Item>
           <Item>
-            <Link to='/my'>mypage</Link>
+            <a href='mypage'>mypage</a>
           </Item>
           <Item>
-            <Link to='/team'>team</Link>
-          </Item>
+            <a href='team'>team</a>
+          </Item> */}
         </MenuList>
       </Nav>
     </MenuContainer>
@@ -44,34 +73,14 @@ const DropDown = () => {
 
 const MenuContainer = styled.div`
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 `;
 
 const TriggerButton = styled.button`
-  background: #ffffff;
-  border-radius: 90px;
-  cursor: pointer;
+  width: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4px 6px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  border: none;
   vertical-align: middle;
-  transition: box-shadow 0.4s ease;
-  margin-left: auto;
-  :hover {
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
-  }
-`;
-
-const MenuTitle = styled.span`
-  font-weight: 700;
-  vertical-align: middle;
-  font-size: 14px;
-  margin: 0 10px;
 `;
 
 const Image = styled.img`
@@ -81,21 +90,19 @@ const Image = styled.img`
 `;
 
 const Nav = styled.nav`
-  background: #ffffff;
-  border-radius: 8px;
+  width: 20rem;
   position: absolute;
-  top: 60px;
-  right: 0;
-  width: 300px;
+  top: 100%;
+  left: 50%;
+  visibility: hidden;
+  transform: translateX(-50%);
+  border-radius: 8px;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
   opacity: 0;
-  visibility: hidden;
-  transform: translateY(-20px);
   transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
   &.menu.active {
     opacity: 1;
     visibility: visible;
-    transform: translateY(0);
   }
 `;
 
@@ -116,9 +123,9 @@ const Item = styled.li`
 export default DropDown;
 ```
 
-```jsx
-// useDetectOutsideClick.js
+### useDetectOutsideClick.js
 
+```jsx
 import { useState, useEffect } from "react";
 
 /**
