@@ -1,4 +1,4 @@
-## README badge setting example
+# README badge setting example
 
 <div align="center">
 
