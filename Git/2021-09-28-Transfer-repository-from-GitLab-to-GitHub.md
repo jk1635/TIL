@@ -1,8 +1,6 @@
-## Transfer repository from GitLab to GitHub
+# Transfer repository from GitLab to GitHub
 
-### 저장소 옮기기
-
-gitlab 에서 github 으로 commit 포함해서 옮긴다
+## gitlab 에서 github 으로 commit 포함해서 옮긴다.
 
 1. 원본 저장소를 복사한다.
 
@@ -31,8 +29,20 @@ gitlab 에서 github 으로 commit 포함해서 옮긴다
 ```bash
 > git push --mirror [이동할 원격 저장소]
 ```
+
+## 기존의 환경(branch, commit 이력, issues, wiki 등)이 모두 유지된 상태로 옮긴다.
+
+```bash
+> git clone --bare [원본 저장소 경로]
+
+> cd [원본 저장소 이름].git
+
+> git push --mirror [이동할 원격 저장소]
+```
+
 ---
-### 실제 사용한 명령어
+
+실제 사용한 명령어
 
 ```bash
 # git config 설정
