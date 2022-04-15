@@ -1,20 +1,20 @@
 # Flutter initial setup
 
-[1. Flutter SDK 설치](##1.-Flutter-SDK-설치)<br/>
-[2. Android Studio 설치](##2.-Android-Studio-설치)<br/>
-[3. Android Studio 세팅](##3.-Android-Studio-세팅)<br/>
-[4. 환경 변수 등록](##4.-환경-변수-등록)<br/>
-[5. 새로운 Flutter 프로젝트 생성](##5.-새로운-Flutter-프로젝트-생성)<br/>
-[6. 코드 작성](##6.-코드-작성)<br/>
-[7. 추가 내용](##7.-추가-내용)
+[1. Flutter SDK 설치](#1-Flutter-SDK-설치)<br/>
+[2. Android Studio 설치](#2-Android-Studio-설치)<br/>
+[3. Android Studio 세팅](#3-Android-Studio-세팅)<br/>
+[4. 환경 변수 등록](#4-환경-변수-등록)<br/>
+[5. 새로운 Flutter 프로젝트 생성](#5-새로운-Flutter-프로젝트-생성)<br/>
+[6. 코드 작성](#6-코드-작성)<br/>
+[7. 추가 내용](#7-추가-내용)
 
-## 1. Flutter SDK 설치
+## 1\. Flutter SDK 설치
 
 - [Flutter 공식사이트](https://flutter.dev/docs/development/tools/sdk/releases?tab=windows)
 
 - 2.8.0 다운로드 > 찾기 쉬운 곳에 압축 해제 (Program Files 이런 폴더에 저장하지 않는다.)
 
-## 2. Android Studio 설치
+## 2\. Android Studio 설치
 
 - Android SDK, JDK 라는게 필요 (Android Studio 라는 IDE 프로그램에 포함되어 있다.)
 
@@ -22,7 +22,7 @@
 
 - Android Studio 설치 (m1 이후 맥북은 ARM 다운) > Setup Wizard > Standard > Finish (AMD Hyper, Intel HAXM 나와도 무시)
 
-## 3. Android Studio 세팅
+## 3\. Android Studio 세팅
 
 - VScode 쓰는 경우도, 우선 Android Studio 세팅은 필요하다.
 
@@ -34,7 +34,7 @@
 
   - Appearance & Behavior > System Settings > Android SDK > Android SDK Command-line Tools
 
-## 4. 환경 변수 등록
+## 4\. 환경 변수 등록
 
 ### 윈도우의 경우
 
@@ -62,7 +62,7 @@
 
   - Android Studio 설치하지 않은 것
 
-## 5. 새로운 Flutter 프로젝트 생성
+## 5\. 새로운 Flutter 프로젝트 생성
 
 - Android Studio > New Flutter Project 만들기 (프로젝트 진행 중이면 상단 메뉴에서 File - New)
 
@@ -72,7 +72,7 @@
 
 - lib 폴더 > `main.dart`에 코드 작성
 
-## 6. 코드 작성
+## 6\. 코드 작성
 
 - `main.dart`의 샘플 코드 삭제
 
@@ -114,7 +114,7 @@ linter:
     prefer_const_constructors_in_immutables: false
 ```
 
-## 7. 추가 내용
+## 7\. 추가 내용
 
 ### 미리보기
 
