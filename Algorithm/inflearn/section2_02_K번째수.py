@@ -31,11 +31,11 @@ case 2 : 8 16 6 6 17 3 10 11의 숫자 중 오름차순 정렬 했을 때 3번�
 T = int(input())
 
 for t in range(T):
-  n, s, e, k = map(int, input().split())
-  a = list(map(int, input().split()))
-  
-  a = a[s-1 : e] # 배열 a의 index s-1부터 index e-1까지의 원소를 담는다.
-  
-  a.sort() # 오름차순 정렬
-  print(a[k-1]) # sorting 된 a의 k번째(sorting 자료가 0번부터 들어가기 때문에 k-1이다.)
-  print("#%d %d" %(t+1, a[k-1])) 
+    n, s, e, k = map(int, input().split())
+    a = list(map(int, input().split()))
+
+    a = a[s-1: e]  # 배열 a의 index s-1부터 index e-1까지의 원소를 담는다.
+
+    a.sort()  # 오름차순 정렬
+    print(a[k-1])  # sorting 된 a의 k번째(sorting 자료가 0번부터 들어가기 때문에 k-1이다.)
+    print("#%d %d" % (t+1, a[k-1]))
