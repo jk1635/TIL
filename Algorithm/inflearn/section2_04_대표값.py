@@ -30,7 +30,9 @@ N명의 학생 중 평균에 가장 가까운 학생은 몇 번째 학생인지 
 n = int(input())
 a = list(map(int, input().split()))
 
-ave = round(sum(a)/n)  # 소수 첫째자리에서 반올림 (round)
+ave = sum(a)/n
+ave = ave+0.5
+ave = int(ave)  # 소수 첫째자리에서 반올림
 min = 2147000000
 
 for idx, x in enumerate(a):  # enumerate idx에는 인덱스 값 반환, x는 리스트 안의 value값
