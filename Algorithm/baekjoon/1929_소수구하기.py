@@ -45,7 +45,7 @@ c = sorted(set(a) - set(b))
 for d in c:
     print(d)
 
-# 2.
+# 2. 에라토스테네스의 체
 m, n = map(int, input().split())
 
 check = [0] * (n+1)
