@@ -18,11 +18,11 @@
 3) -1이 입력되면 프로그램 종료한다.
 
 - 입력설명
-첫 번째 줄부터 숫자가 입력된다. 입력되는 숫자는 100,000개 이하이며 각 숫자의 크기는 정
-수형 범위에 있다.
+첫 번째 줄부터 숫자가 입력된다.
+입력되는 숫자는 100,000개 이하이며 각 숫자의 크기는 정수형 범위에 있다.
 
 - 출력설명
-2) 연산을 한 결과를 보여준다.
+연산을 한 결과를 보여준다.
 
 - 입력예제 1
 5
@@ -44,16 +44,16 @@
 
 import heapq as hq
 
-a = []
+a = []  # heapq하려면 list가 필요하다.
 
 while True:
     n = int(input())
-    if n == -1:
+    if n == -1:  # -1이면 입력이 종료
         break
-    if n == 0:
-        if len(a) == 0:
+    if n == 0:  # heap에 자료가 없을 때
+        if len(a) == 0:  # heap자료 구조가 비어 있는 것
             print(-1)
-        else:
-            print(hq.heappop(a))
+        else:  # heap자료구조에 데이터가 있는 것
+            print(hq.heappop(a))  # heappop a에서 자료를 1개 빼준다.
     else:
-        hq.heappush(a, n)
+        hq.heappush(a, n)  # 0이 아니면 a라는 list에 n값을 push
