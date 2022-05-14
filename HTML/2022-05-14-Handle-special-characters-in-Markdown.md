@@ -14,7 +14,7 @@ This table lists special characters that are often used.
 |   '    | `&#39;`  | single quote             |
 |   (    | `&#40;`  | opening parenthesis      |
 |   )    | `&#41;`  | closing parenthesis      |
-|   \*   | `&#42;`  | asterisk                 |
+| &#42;  | `&#42;`  | asterisk                 |
 |   +    | `&#43;`  | plus sign                |
 |   ,    | `&#44;`  | comma                    |
 |   -    | `&#45;`  | minus sign - hyphen      |
@@ -31,12 +31,12 @@ This table lists special characters that are often used.
 | &#92;  | `&#92;`  | backslash                |
 |   ]    | `&#93;`  | closing bracket          |
 |   ^    | `&#94;`  | caret - circumflex       |
-|   \_   | `&#95;`  | underscore               |
+| &#95;  | `&#95;`  | underscore               |
 | &#96;  | `&#96;`  | grave accent             |
 |   {    | `&#123;` | opening brace            |
 | &#124; | `&#124;` | vertical bar             |
 |   }    | `&#125;` | closing brace            |
 |   ~    | `&#126;` | equivalency sign - tilde |
-|   ¿    | `&#191;` | inverted question mark   |
+| &#191; | `&#191;` | inverted question mark   |
 
 See [here](https://ascii.cl/htmlcodes.htm) for more details.

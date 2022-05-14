@@ -2,7 +2,7 @@
 
 ## counter
 
-세팅 : redux, react-redux
+세팅 &#58; redux&#44; react-redux
 
 ### src
 

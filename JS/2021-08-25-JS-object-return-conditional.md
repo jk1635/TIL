@@ -1,8 +1,12 @@
-## object
+# Object&#44; Function&#44; Conditional
+
+## Object
 
 - argument(인자)
-- NaN - Not a Number(숫자가 아님)
+- NaN : Not a Number(숫자가 아님)
 - function은 어떤 코드를 캡슐화해서, 실행을 여러 번 할 수 있게 해준다
+- Object는 Property를 가진 데이터를 저장한다
+- Array : `[]`, Object : `{}`
 
   - function 안에서 data를 받는 방법
 
@@ -84,7 +88,7 @@
   // > {name: "lulu", age: 98, sexy: "soon"}
   ```
 
-## return
+## Function
 
 - 함수란 어떤 일을 수행하고 그 결과를 알려주는 것
 
@@ -207,7 +211,7 @@
   };
   ```
 
-## conditionals
+## Conditional
 
 - 조건문 기본 형식
 
