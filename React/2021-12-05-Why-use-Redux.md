@@ -1,6 +1,6 @@
-## Redux 쉽게 이해하기
+# Why use Redux
 
-### Redux 쓰는 이유
+## Redux 쓰는 이유
 
 1. props 문법 귀찮을 때 쓴다.
 2. state 변경 관리할 때 쓴다.

@@ -1,4 +1,4 @@
-## How to use Redux-Persist
+# Redux-Persist settings
 
 redux-persist 세팅하기
 

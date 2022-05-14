@@ -1,4 +1,4 @@
-##  ! [rejected]        main -> main (fetch first)
+# Git push rejected error
 
 ```bash
 
@@ -18,7 +18,7 @@ error: failed to push some refs to 'https://github.com/XXX/XXX.github.io.git'
 # 해결 : 두 가지 방법
 
 # 1. 동기화를 위해 pull
-$ git pull --rebase origin main 
+$ git pull --rebase origin main
 
 # 2. 강제로 push
 $ git push origin +main

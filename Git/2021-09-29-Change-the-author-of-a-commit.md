@@ -1,4 +1,4 @@
-## Commit Author 변경
+# Change Author of a commit after push
 
 ### 1. git user 설정
 

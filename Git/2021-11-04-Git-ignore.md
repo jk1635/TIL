@@ -1,4 +1,6 @@
-## gitignore로 .ipynb_checkpoints 삭제
+# How to use a .gitignore file
+
+## .gitignore 사용하기
 
 ```bash
 $ touch .gitignore
@@ -16,12 +18,12 @@ $ vi .gitignore
 
 ```bash
 # 로컬에서 캐시 지우기
-git rm -r --cached .ipynb_checkpoints
+$ git rm -r --cached .ipynb_checkpoints
 
 # 깃에 반영
-git add .
-git commit -m "Ignore ipynb_checkpoints"
-git push
+$ git add .
+$ git commit -m "Ignore ipynb_checkpoints"
+$ git push
 ```
 
 ## .gitignore 파일 사용 방법

@@ -1,4 +1,4 @@
-## Pagination 구현
+# Simple Pagination
 
 - slice를 이용하여 pagination을 구현
 - page number 클릭시 해당 페이지로 이동

@@ -1,20 +1,23 @@
-## addEventListener, window.innerWidth 브라우저 창 크기 변화 이벤트
+# Window Resize Event in JavaScript
+
+## addEventListener&#44; window.innerWidth 브라우저 창 크기 변화 이벤트
 
 ```jsx
 // index.html
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-
 </head>
+
 <body>
     <h1 id="title">Hello JavaScript!!</h1>
-    <script src="index.js">
-    </script>
+    <script src="index.js"></script>
 </body>
+
 </html>
 ```
 

@@ -1,4 +1,4 @@
-# Github-readme-stats-sample
+# Github readme stats sample
 
 ### Hi there 👋
 

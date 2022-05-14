@@ -1,3 +1,5 @@
+# Convert A List of Strings to Ints (LocationCode)
+
 ## 지역 이름 묶어서 숫자코드로 변환
 
 1. 데이터 저장

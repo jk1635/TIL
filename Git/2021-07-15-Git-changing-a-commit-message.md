@@ -1,6 +1,10 @@
-## 가장 마지막 commit 내용 수정
+# Change a commit message
+
+## Changing the most recent commit message
 
 ```bash
+# 가장 마지막 commit 내용 수정
+
 $ git commit --amend
 
 # 수정완료 후 Esc 누르고
@@ -17,9 +21,11 @@ $ git commit --amend
 :w! 강제저장
 ```
 
-## 특정 commit 내용 수정
+## Changing the message of older or multiple commit messages
 
 ```bash
+# 특정 commit 내용 수정
+
 $ git rebase -i HEAD~2
 # 2는 거슬러 올라가는 commit의 수
 

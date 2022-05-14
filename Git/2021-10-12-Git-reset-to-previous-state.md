@@ -1,4 +1,4 @@
-## 이전 버전으로 되돌리기
+# Reset to previous state
 
 ### 이전 버전으로 reset
 

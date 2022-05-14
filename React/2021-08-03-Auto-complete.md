@@ -1,4 +1,4 @@
-## 자동완성기능 구현
+# Auto Complete
 
 1. 하드 코딩 locationList 만들기 (개발자 도구 sort를 이용해 자동 정렬)
 2. SearchList(ul태그), SearchItem(li태그) ,StartPointResult 컴포넌트 만들기
@@ -18,7 +18,7 @@
 
               <Container>
               
-      (...)
+                    (...)
                   
                   <SearchList>
                     {locationList.map((location, idx) => {
@@ -68,7 +68,8 @@
         ```jsx
         import deleteImg from "../../images/deleteImg.png";
 
-        (...)
+                    (...)
+
                     <StartPointResult>
                       {startPoint}
                       <DeleteButton
@@ -80,7 +81,7 @@
                       </DeleteButton>
                     </StartPointResult>
 
-        (...)
+                    (...)
         ```
 
 4. but, SearchList와 DeleteButton이 남아있다
@@ -97,7 +98,7 @@
                 ```jsx
                 const [searchValue, setSearchValue] = useState("");
 
-                (...)
+                        (...)
 
                         <QuestionBox>
                           <div>
@@ -112,7 +113,9 @@
                               }}
                               value={searchValue}
                             ></SearchInput>
-                (...)
+
+                          (...)
+
                           </SearchBox>
                           {searchValue !== "" ? (
                             <SearchList>
@@ -153,7 +156,9 @@
 
                   <Container>
                     <QuestionBox>
-                (...)
+
+                      (...)
+
                         <SearchButton>
                           <img src={search} alt="" width="25px" />
                         </SearchButton>
@@ -170,7 +175,9 @@
                           </StartPointResult>
                         ) : null}
                       </SearchBox>
-                (...)
+
+                      (...)
+
                     </QuestionBox>
                   </Container>
                 </>
@@ -188,7 +195,7 @@
             ```jsx
             const [filteredList, setFilteredList] = useState([]);
 
-            (...)
+                        (...)
 
             						<SearchInput
                           placeholder="시/구까지 입력하세요"
@@ -202,7 +209,7 @@
                           value={searchValue}
                         ></SearchInput>
 
-            (...)
+                        (...)
 
             				{searchValue !== "" ? (
                         <SearchList>
@@ -221,7 +228,8 @@
                           })}
                         </SearchList>
                       ) : null}
-            (...)
+
+                        (...)
             ```
 
      

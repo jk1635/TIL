@@ -1,4 +1,4 @@
-## Modal
+# Modal tutorial using hooks
 
 ```jsx
 // App.js

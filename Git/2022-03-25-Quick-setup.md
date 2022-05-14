@@ -1,4 +1,6 @@
-# Create a new repository on the command line
+# Quick setup
+
+## Create a new repository on the command line
 
 ```bash
 echo "# [abc-repository]" >> README.md
@@ -10,7 +12,7 @@ git remote add origin https://github.com/githubuserid1234/abc-repository.git
 git push -u origin main
 ```
 
-# Push an existing repository from the command line
+## Push an existing repository from the command line
 
 ```bash
 git remote add origin https://github.com/githubuserid1234/abc-repository.git

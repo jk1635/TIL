@@ -1,10 +1,4 @@
-## 깃헙 페이지 만들기(jekyll)
-
-hugo theme를 원했으나 하다가 실패, 결국 jekyll theme로 변경 Ruby를 사용했다.
-
-사실 아직도 hugo랑 jekyll이 뭔지 모르지만, hugo가 go언어인 것은 오늘부터 안다.<br/>
-
-## git
+# Create Github pages with Jekyll
 
 ```bash
 # git bash에서 github로 올릴 때 코드
@@ -16,6 +10,29 @@ $ git push
 # localhost:4000에서 확인할 때 코드
 $ cd https://XXX.github.io/
 $ bundle exec jekyll serve --incremental
+```
+
+```bash
+$ cd C:/Users/JK/Documents/XXX
+
+$ git clone https://github.com/XXX/XXX.github.io.git
+
+$ cd ./XXX.github.io
+
+# 해당 폴더에 테마 넣기
+
+$ gem install bundler
+
+$ bundle install
+
+$ git add .
+
+$ git commit -m "Theme"
+
+$ git push
+
+$ git push -f
+# 강제로 push
 ```
 
 참고

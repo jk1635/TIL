@@ -1,4 +1,4 @@
-## GitHub에 업로드하기
+# Github Upload
 
 ```bash
 # 폴더 우클릭 > Git Bash

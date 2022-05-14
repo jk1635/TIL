@@ -1,4 +1,4 @@
-## linear-gradient()
+# Background color with linear gradient
 
 CSS function인 linear-gradient() 직선을 따라 두개나 그 이상의 색 간의 점진적 전환을 표현한다. 그레이디언트는 배경처럼 `<image>`를 사용하는 곳에는 어디에나 적용할 수 있다.
 

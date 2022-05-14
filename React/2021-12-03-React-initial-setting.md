@@ -1,6 +1,6 @@
-# React 초기 설정
+# React initial settings
 
-- nvm : Node.js의 버전 관리자
+- nvm &#58; Node.js의 버전 관리자
 
 ```bash
 nvm --version

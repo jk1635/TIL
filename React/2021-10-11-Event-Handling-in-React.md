@@ -1,3 +1,5 @@
+# Event Handling in React
+
 ## React에서 이벤트 핸들링 방법
 
 ### 1. 핸들링 함수 선언

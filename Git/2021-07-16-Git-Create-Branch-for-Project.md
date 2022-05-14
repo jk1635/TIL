@@ -1,4 +1,4 @@
-## Git Branch 실적용 /// 받으라고 할때!!!!!!!!
+# Create Branch for Project
 
 develop에서 새로운 값 pull하고 기존 기능 branch삭제 후 새로 만들기
 

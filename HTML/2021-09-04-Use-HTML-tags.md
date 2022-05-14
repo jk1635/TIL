@@ -1,4 +1,4 @@
-## HTML 태그 연습
+# Use HTML Tags
 
 ```html
 <!-- index.html -->

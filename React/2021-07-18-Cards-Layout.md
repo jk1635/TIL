@@ -1,4 +1,4 @@
-## 카드 기반 레이아웃
+# Cards Layout
 
 __Card.js__
 

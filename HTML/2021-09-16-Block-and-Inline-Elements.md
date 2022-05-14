@@ -1,4 +1,4 @@
-## Block and Inline
+# Block and Inline Elements
 
 There are two display values: block and inline.
 

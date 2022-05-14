@@ -1,4 +1,4 @@
-## 클래스형 컴포넌트와 함수형 컴포넌트의 차이점
+# Differences between Class Components and Functional Components
 
 1. 클래스형 컴포넌트와 함수형 컴포넌트의 역할은 동일하다.
 2. 차이점은 **클래스형 컴포넌트**의 경우 **state 기능 및 라이프 사이클 기능**을 사용할 수 있으며 임의 메서드를 정의할 수 있다는 점이다.  그리고 render 함수가 꼭 있어야 하고, 그 안에서 보여 주어야 할 JSX를 반환해야 한다. 
