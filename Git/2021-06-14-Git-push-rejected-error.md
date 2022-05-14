@@ -4,8 +4,8 @@
 
 $ git push
 
- ! [rejected]        main -> main (fetch first)
-error: failed to push some refs to 'https://github.com/XXX/XXX.github.io.git'
+#  ! [rejected]        main -> main (fetch first)
+# error: failed to push some refs to 'https://github.com/XXX/XXX.github.io.git'
 
 
 # main -> main (fetch first)
