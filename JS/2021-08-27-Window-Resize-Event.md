@@ -1,6 +1,6 @@
 # Window Resize Event in JavaScript
 
-## addEventListener&#44; window.innerWidth 브라우저 창 크기 변화 이벤트
+## addEventListener&#44; window&#46;innerWidth 브라우저 창 크기 변화 이벤트
 
 ```jsx
 // index.html
