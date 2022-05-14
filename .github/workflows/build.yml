@@ -32,7 +32,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: Build database
-        run: python build_database.py
+        run: python build_database.py || true
       - name: Update README
         run: |-
           python update_readme.py --rewrite
@@ -42,7 +42,7 @@ jobs:
           git diff
           git config --global user.name "README[bot]"
           git config --global user.email "readme-bot@example.com"
-          git diff --quiet || (git add README.md && git commit -m "Updated README")
+          git diff --quiet || (git add README.md && git commit -m "Update README")
           git push
       - name: Setup Node.js
         uses: actions/setup-node@v1
