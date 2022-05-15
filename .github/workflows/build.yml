@@ -58,5 +58,3 @@ jobs:
             --metadata metadata.json \
             --install py-gfm \
             --install datasette-render-markdown \
-            --install datasette-template-sql \
-            --template-dir templates
