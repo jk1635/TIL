@@ -56,6 +56,7 @@
 * [Github readme stats sample](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-04-16-Github-readme-stats-sample.md) - 2022-04-18
 * [Set Github Actions Bot](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-05-04-Set-github-actions-bot.md) - 2022-05-05
 * [Git push rejected error](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-06-14-Git-push-rejected-error.md) - 2022-05-15
+* [Use README Bot](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-05-15-Use-README-Bot.md) - 2022-05-15
 
 ## React
 
