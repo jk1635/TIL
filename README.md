@@ -9,6 +9,16 @@
 * [Transform](https://github.com/greencoffee1635/TIL/blob/main/CSS/2021-09-20-Transform.md) - 2021-09-20
 * [Simple scroll bar](https://github.com/greencoffee1635/TIL/blob/main/CSS/2022-01-01-Simple-scroll-bar.md) - 2022-01-01
 
+## JS
+
+* [Math random and Math floor](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-09-06-Math-random-and-Math-floor-in-JS.md) - 2021-09-06
+* [jQuery Event Methods](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-09-28-Use-jquery-event-methods.md) - 2021-09-29
+* [Arrow Function](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-07-10-JS-arrow-function.md) - 2021-10-02
+* [Change value of object](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-10-08-Change-object-value-in-array.md) - 2021-10-09
+* [Object&#44; Function&#44; Conditional](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-08-25-JS-object-return-conditional.md) - 2022-05-15
+* [Const vs Let](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-08-24-const-vs-let.md) - 2022-05-15
+* [Window Resize Event in JavaScript](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-08-27-Window-Resize-Event.md) - 2022-05-15
+
 ## HTML
 
 * [Use HTML Tags](https://github.com/greencoffee1635/TIL/blob/main/HTML/2021-09-04-Use-HTML-tags.md) - 2021-09-15
@@ -95,11 +105,6 @@
 * [ModuleNotFoundError: No module named 'urllib3'](https://github.com/greencoffee1635/TIL/blob/main/Python/2021-12-10-No-module-named-'urllib3'.md) - 2021-12-11
 * [How to prevent Google Colab from disconnecting on a timeout](https://github.com/greencoffee1635/TIL/blob/main/Python/2021-12-11-How-to-prevent-colab-from-disconnecting.md) - 2021-12-12
 * [Sort Tuples in Increasing Order](https://github.com/greencoffee1635/TIL/blob/main/Python/2022-04-29-Sort-Tuples-in-Increasing-Order.md) - 2022-04-30
-
-## JS
-
-* [Change value of object](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-10-08-Change-object-value-in-array.md) - 2021-10-09
-* [Object&#44; Function&#44; Conditional](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-08-25-JS-object-return-conditional.md) - 2022-05-15
 
 ## Flutter
 
