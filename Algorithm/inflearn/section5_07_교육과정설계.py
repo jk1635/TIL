@@ -55,15 +55,15 @@ n = int(input())
 for i in range(n):
     plan = input()
     dq = deque(need)
-    for x in plan:
+    for x in plan:  # 0부터 돌고 있다.
         if x in dq:
             if x in dq:
                 if x != dq.popleft():
                     print('#%d NO' % (i+1))
                     break
 
-    else:  # 정상적으로 통과 순서는 통과되더라도 필수과목을 다 넣었는지는 확인해야한다.
+    else:  # 정상적으로 통과, 순서는 통과되더라도 필수과목을 다 넣었는지는 확인해야한다.
         if len(dq) == 0:
             print("#%d YES" % (i+1))
-        else:
+        else:  # 필수 과목을 설계에 넣지 않았다.
             print("#%d NO" % (i+1))
