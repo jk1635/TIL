@@ -40,7 +40,7 @@ or
 $ tsc -w
 ```
 
-## TypeScript 웹 앱 실행
+## 웹에서 타입 스크립트 실행
 
 `index.html` 파일에 다음과 같이 작성한다.
 
@@ -56,6 +56,6 @@ $ tsc -w
 </html>
 ```
 
-브라우저에서 `index.html`을 열어 TypeScript web app을 실행한다.
+브라우저에서 `index.html`을 실행한다.
 
 참고 : [TypeScriptDocs](https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html)
