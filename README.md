@@ -114,4 +114,8 @@
 * [Build and release an Android app](https://github.com/greencoffee1635/TIL/blob/main/Flutter/2022-05-06-Build-and-release-an-Android-app.md) - 2022-05-06
 * [Using Packages in Flutter](https://github.com/greencoffee1635/TIL/blob/main/Flutter/2022-05-12-Using-packages-in-Flutter.md) - 2022-05-14
 * [Change the application ID](https://github.com/greencoffee1635/TIL/blob/main/Flutter/2022-05-13-Change-application-ID.md) - 2022-05-14
+
+## TS
+
+* [Install TypeScript](https://github.com/greencoffee1635/TIL/blob/main/TS/2022-05-24-Install-TypeScript.md) - 2022-05-28
 <!-- index ends -->
