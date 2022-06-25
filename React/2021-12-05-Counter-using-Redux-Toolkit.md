@@ -1,6 +1,6 @@
 # Counter using redux-toolkit
 
-## counter
+## Counter
 
 세팅 : @reduxjs/toolkit, react-redux
 
@@ -36,7 +36,7 @@ function App() {
   const dispatch = useDispatch();
 
   return (
-    <div className="App">
+    <div className='App'>
       <h1>Counter {count}</h1>
       {/* <button onClick={() => setCount(count + 1)}>+</button>
       <button onClick={() => setCount(count - 1)}>-</button> */}
@@ -92,6 +92,86 @@ import counterReducer from "./counter";
 export default configureStore({
   reducer: {
     counter: counterReducer,
+  },
+});
+```
+
+## More Simple Example
+
+```jsx
+// index.js
+
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import { BrowserRouter } from "react-router-dom";
+
+// redux
+import { Provider } from "react-redux";
+import store from "./store.js";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <Provider store={store}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </Provider>
+  </React.StrictMode>
+);
+```
+
+```jsx
+// App.js
+
+import React from "react";
+import { useSelector } from "react-redux";
+
+function App() {
+  // Redux store 가져와 준다. (꺼내쓰는 법)
+  let a = useSelector(state => {
+    // return state;
+    return state.user;
+  }); // Redux에 있던 state 남음
+
+  console.log(a);
+  // console.log(a.user);  // kim
+  // console.log(a.stock);  // [10, 11, 12]
+
+  return <div>App</div>;
+}
+
+export default App;
+```
+
+### redux
+
+```jsx
+// store.js
+
+import { configureStore, createSlice } from "@reduxjs/toolkit";
+
+// useState 역할
+// state 하나를 slice라고 부른다.
+let user = createSlice({
+  // name: "state 이름",
+  // initial: "값",
+  name: "user",
+  initialState: "kim",
+});
+
+let stock = createSlice({
+  name: "stock",
+  initialState: [10, 11, 12],
+});
+
+// 등록
+export default configureStore({
+  reducer: {
+    // 작명 : user.reducer
+    user: user.reducer,
+    stock: stock.reducer,
   },
 });
 ```
