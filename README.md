@@ -18,6 +18,7 @@
 * [Const vs Let](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-08-24-const-vs-let.md) - 2022-05-15
 * [Object&#44; Function&#44; Conditional](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-08-25-JS-object-return-conditional.md) - 2022-05-15
 * [Window Resize Event in JavaScript](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-08-27-Window-Resize-Event.md) - 2022-05-15
+* [Counting Animation](https://github.com/greencoffee1635/TIL/blob/main/JS/2022-06-25-Count-up-tutorial.md) - 2022-06-25
 
 ## HTML
 
@@ -58,13 +59,14 @@
 * [Git push rejected error](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-06-14-Git-push-rejected-error.md) - 2022-05-15
 * [Use README Bot](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-05-15-Use-README-Bot.md) - 2022-05-15
 * [Example Workflow in Github Actions](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-05-16-Workflow-flow.md) - 2022-05-16
+* [Split Subdirectory into New Repository](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-06-12-Git-Subtree-split.md) - 2022-06-13
 
 ## React
 
 * [Fade-in / Fade-out](https://github.com/greencoffee1635/TIL/blob/main/React/2021-09-25-Fade-in-Fade-out-text-in-react.md) - 2021-09-29
+* [Position Sticky](https://github.com/greencoffee1635/TIL/blob/main/React/2021-07-17-Position-Sticky.md) - 2021-10-02
 * [Redux Modules](https://github.com/greencoffee1635/TIL/blob/main/React/2021-07-04-Redux.md) - 2021-10-02
 * [Cards Layout](https://github.com/greencoffee1635/TIL/blob/main/React/2021-07-18-Cards-Layout.md) - 2021-10-02
-* [Position Sticky](https://github.com/greencoffee1635/TIL/blob/main/React/2021-07-17-Position-Sticky.md) - 2021-10-02
 * [Event Handling in React](https://github.com/greencoffee1635/TIL/blob/main/React/2021-10-11-Event-Handling-in-React.md) - 2021-10-11
 * [export default vs export](https://github.com/greencoffee1635/TIL/blob/main/React/2021-10-14-Difference-between-export-default-and-export.md) - 2021-10-15
 * [Props and State](https://github.com/greencoffee1635/TIL/blob/main/React/2021-10-16-Props-and-State.md) - 2021-10-16
@@ -86,10 +88,10 @@
 * [버튼 클릭시 드롭다운이 가운데로 가지 않는 이슈](https://github.com/greencoffee1635/TIL/blob/main/React/2022-02-24-Dropdown-center-alignment-to-button.md) - 2022-03-20
 * [Create copy url button](https://github.com/greencoffee1635/TIL/blob/main/React/2022-03-06-Create-copy-url-button.md) - 2022-03-21
 * [Cards Stack animation using react-spring](https://github.com/greencoffee1635/TIL/blob/main/React/2022-03-21-Card-stack-animation-using-react-spring.md) - 2022-03-22
+* [Auto Complete](https://github.com/greencoffee1635/TIL/blob/main/React/2021-08-03-Auto-complete.md) - 2022-05-15
+* [Convert A List of Strings to Ints (LocationCode)](https://github.com/greencoffee1635/TIL/blob/main/React/2021-08-06-Convert-A-List-of-Strings-to-Ints(LocationCode).md) - 2022-05-15
 * [Why use React components](https://github.com/greencoffee1635/TIL/blob/main/React/2021-07-13-Why-use-React-components.md) - 2022-05-15
 * [Differences between Class Components and Functional Components](https://github.com/greencoffee1635/TIL/blob/main/React/2021-07-12-Class-Components-vs-Functional-Components-in-React.md) - 2022-05-15
-* [Convert A List of Strings to Ints (LocationCode)](https://github.com/greencoffee1635/TIL/blob/main/React/2021-08-06-Convert-A-List-of-Strings-to-Ints(LocationCode).md) - 2022-05-15
-* [Auto Complete](https://github.com/greencoffee1635/TIL/blob/main/React/2021-08-03-Auto-complete.md) - 2022-05-15
 * [Counter using redux](https://github.com/greencoffee1635/TIL/blob/main/React/2021-12-04-Counter-using-Redux.md) - 2022-05-15
 
 ## Vscode
