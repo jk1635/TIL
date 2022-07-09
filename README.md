@@ -93,6 +93,9 @@
 * [Why use React components](https://github.com/greencoffee1635/TIL/blob/main/React/2021-07-13-Why-use-React-components.md) - 2022-05-15
 * [Differences between Class Components and Functional Components](https://github.com/greencoffee1635/TIL/blob/main/React/2021-07-12-Class-Components-vs-Functional-Components-in-React.md) - 2022-05-15
 * [Counter using redux](https://github.com/greencoffee1635/TIL/blob/main/React/2021-12-04-Counter-using-Redux.md) - 2022-05-15
+* [Counting Animation using Pure React](https://github.com/greencoffee1635/TIL/blob/main/React/2022-06-25-Count-Up-Tutorial-using-no-libraries.md) - 2022-07-09
+* [Fading Animation using React Hooks](https://github.com/greencoffee1635/TIL/blob/main/React/2022-06-26-Fade-In-Animation-using-React-Hooks.md) - 2022-07-09
+* [Counting Up Animation using React Hooks](https://github.com/greencoffee1635/TIL/blob/main/React/2022-06-27-Count-Up-Animation-using-React-Hooks.md) - 2022-07-09
 
 ## Vscode
 
