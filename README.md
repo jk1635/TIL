@@ -38,10 +38,10 @@
 * [Transfer repository from GitLab to GitHub](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-09-28-Transfer-repository-from-GitLab-to-GitHub.md) - 2021-09-29
 * [Create Branch for Project](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-07-16-Git-Create-Branch-for-Project.md) - 2021-09-29
 * [Change Author of a commit after push](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-09-29-Change-the-author-of-a-commit.md) - 2021-09-29
-* [Rename Local and Remote Branch](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-08-26-Git-Rename-Local-and-Remote-Branch.md) - 2021-10-02
-* [Github Upload](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-06-20-Git-upload.md) - 2021-10-02
-* [Move Repository](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-08-25-Git-move-repository.md) - 2021-10-02
 * [Create Github pages with Jekyll](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-06-13-Git-Jekyll-Theme.md) - 2021-10-02
+* [Github Upload](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-06-20-Git-upload.md) - 2021-10-02
+* [Rename Local and Remote Branch](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-08-26-Git-Rename-Local-and-Remote-Branch.md) - 2021-10-02
+* [Move Repository](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-08-25-Git-move-repository.md) - 2021-10-02
 * [Reset to previous state](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-10-12-Git-reset-to-previous-state.md) - 2021-10-12
 * [Git commit cancle before push](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-10-31-Git-commit-cancle-before-push.md) - 2021-10-31
 * [Change commit description](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-11-01-Change-commit-description.md) - 2021-11-01
@@ -88,14 +88,15 @@
 * [버튼 클릭시 드롭다운이 가운데로 가지 않는 이슈](https://github.com/greencoffee1635/TIL/blob/main/React/2022-02-24-Dropdown-center-alignment-to-button.md) - 2022-03-20
 * [Create copy url button](https://github.com/greencoffee1635/TIL/blob/main/React/2022-03-06-Create-copy-url-button.md) - 2022-03-21
 * [Cards Stack animation using react-spring](https://github.com/greencoffee1635/TIL/blob/main/React/2022-03-21-Card-stack-animation-using-react-spring.md) - 2022-03-22
-* [Auto Complete](https://github.com/greencoffee1635/TIL/blob/main/React/2021-08-03-Auto-complete.md) - 2022-05-15
+* [Differences between Class Components and Functional Components](https://github.com/greencoffee1635/TIL/blob/main/React/2021-07-12-Class-Components-vs-Functional-Components-in-React.md) - 2022-05-15
 * [Convert A List of Strings to Ints (LocationCode)](https://github.com/greencoffee1635/TIL/blob/main/React/2021-08-06-Convert-A-List-of-Strings-to-Ints(LocationCode).md) - 2022-05-15
 * [Why use React components](https://github.com/greencoffee1635/TIL/blob/main/React/2021-07-13-Why-use-React-components.md) - 2022-05-15
-* [Differences between Class Components and Functional Components](https://github.com/greencoffee1635/TIL/blob/main/React/2021-07-12-Class-Components-vs-Functional-Components-in-React.md) - 2022-05-15
+* [Auto Complete](https://github.com/greencoffee1635/TIL/blob/main/React/2021-08-03-Auto-complete.md) - 2022-05-15
 * [Counter using redux](https://github.com/greencoffee1635/TIL/blob/main/React/2021-12-04-Counter-using-Redux.md) - 2022-05-15
 * [Counting Animation using Pure React](https://github.com/greencoffee1635/TIL/blob/main/React/2022-06-25-Count-Up-Tutorial-using-no-libraries.md) - 2022-07-09
 * [Fading Animation using React Hooks](https://github.com/greencoffee1635/TIL/blob/main/React/2022-06-26-Fade-In-Animation-using-React-Hooks.md) - 2022-07-09
 * [Counting Up Animation using React Hooks](https://github.com/greencoffee1635/TIL/blob/main/React/2022-06-27-Count-Up-Animation-using-React-Hooks.md) - 2022-07-09
+* [Clear Cache in npm](https://github.com/greencoffee1635/TIL/blob/main/React/2022-08-08-Clear-cache-in-npm.md) - 2022-08-08
 
 ## Vscode
 
