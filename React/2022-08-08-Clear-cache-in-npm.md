@@ -2,7 +2,7 @@
 
 ## Issue
 
-When you're facing the following error.
+When you&#39;re facing the following error.
 
 `Cannot read properties of null (reading 'pickAlgorithm')`
 
@@ -10,7 +10,7 @@ When you're facing the following error.
 
 This Error occurs because of your Cache.
 
-You have too much cache data or you don’t have enough space in your system for your package file.
+You have too much cache data or you don&#39;t have enough space in your system for your package file.
 
 To solve this error, you need to clear your cache and then re-run npm install. And then the error will be solved.
 
