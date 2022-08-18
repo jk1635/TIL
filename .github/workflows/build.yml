@@ -48,13 +48,13 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '12.x'
-      - name: Deploy Datasette using Zeit Now
-        env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        run: |-
-          datasette publish now til.db \
-            --token $ACCESS_TOKEN \
-            --project til \
-            --metadata metadata.json \
-            --install py-gfm \
-            --install datasette-render-markdown \
+#       - name: Deploy Datasette using Zeit Now
+#         env:
+#           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+#         run: |-
+#           datasette publish now til.db \
+#             --token $ACCESS_TOKEN \
+#             --project til \
+#             --metadata metadata.json \
+#             --install py-gfm \
+#             --install datasette-render-markdown \
