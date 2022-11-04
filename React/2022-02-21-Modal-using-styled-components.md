@@ -6,14 +6,14 @@
 import React from "react";
 import styled from "styled-components";
 
-const Modal = ({ setOpenModal }) => {
+const Modal = ({ setModalOpen }) => {
   return (
     <ModalBackground>
       <ModalContainer>
         <TitleCloseBtn>
           <Button
             onClick={() => {
-              setOpenModal(false);
+              setModalOpen(false);
             }}
           >
             X
