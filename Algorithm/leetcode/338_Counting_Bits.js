@@ -7,8 +7,8 @@
  * @return {number[]}
  */
 
-// let n = 2; // [0, 1, 1]
-let n = 5 // [0, 1, 1, 2, 1, 2]
+let n = 2; // [0, 1, 1]
+// let n = 5 // [0, 1, 1, 2, 1, 2]
 
 const countBits = function (n) {
     const array = [...new Array(n + 1).keys()];

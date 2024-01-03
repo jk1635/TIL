@@ -8,6 +8,10 @@
  * @return {number}
  */
 
+const a = 1; const b = 2; // 3
+// const a = 2; const b = 3; // 5
+// const a = -1; const b = 1; // 0
+
 const getSum = function (a, b) {
     if (a === 0) {
         return b;
@@ -17,9 +21,5 @@ const getSum = function (a, b) {
     }
     return getSum(a ^ b, (a & b) << 1);
 };
-
-// const a = 1; const b = 2; // return 3
-// const a = 2; const b = 3; // return 5
-const a = -1; const b = 1; // return 0
 
 console.log(getSum(a, b));

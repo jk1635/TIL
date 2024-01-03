@@ -7,10 +7,10 @@
  * @return {boolean}
  */
 
-const nums = [1, 2, 3, 1];
+const nums = [1, 2, 3, 1]; // true
 
 const containsDuplicate = function (nums) {
     return nums.length !== [...new Set(nums)].length;
 };
 
-console.log(containsDuplicate(nums)); // true
+console.log(containsDuplicate(nums));

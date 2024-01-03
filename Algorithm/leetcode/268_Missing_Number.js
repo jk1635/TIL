@@ -18,4 +18,4 @@ const missingNumber = function (nums) {
     return expectedSum - actualSum;
 };
 
-console.log(missingNumber(nums))
+console.log(missingNumber(nums));

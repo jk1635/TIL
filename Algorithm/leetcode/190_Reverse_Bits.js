@@ -7,8 +7,8 @@
  * @return {number} - a positive integer
  */
 
-let n = 0b00000010100101000001111010011100 // 964176192
-// let n = 0b11111111111111111111111111111101 // 3221225471
+const n = 0b00000010100101000001111010011100; // 964176192
+// const n = 0b11111111111111111111111111111101; // 3221225471
 
 const reverseBits = function (n) {
     let reverse = 0;
@@ -19,4 +19,4 @@ const reverseBits = function (n) {
     return reverse >>> 0;
 };
 
-console.log(reverseBits(n))
+console.log(reverseBits(n));

@@ -8,8 +8,8 @@
  * @return {number}
  */
 
-let n = 0b00000000000000000000000000001011 // 3
-// let n = 0b11111111111111111111111111111101 // 31
+const n = 0b00000000000000000000000000001011 // 3
+// const n = 0b11111111111111111111111111111101 // 31
 
 const hammingWeight = function (n) {
     let count = 0;
@@ -22,4 +22,4 @@ const hammingWeight = function (n) {
     return count;
 };
 
-console.log(hammingWeight(n))
+console.log(hammingWeight(n));
