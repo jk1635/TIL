@@ -27,4 +27,4 @@ const uniqueOccurrences = function (arr) {
     return occurrences.length === uniqueOccurrences.size;
 };
 
-console.log(uniqueOccurrences(arr))
+console.log(uniqueOccurrences(arr));

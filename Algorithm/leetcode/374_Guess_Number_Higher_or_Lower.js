@@ -18,9 +18,12 @@
  * @return {number}
  */
 
-const n = 10; const pick = 6; // 6
-// const n = 1; const pick = 1; // 1
-// const n = 2; const pick = 1; // 1
+const n = 10;
+const pick = 6; // 6
+// const n = 1;
+// const pick = 1; // 1
+// const n = 2;
+// const pick = 1; // 1
 
 const guess = function (num) {
     if (num === pick) return 0;
@@ -41,4 +44,4 @@ const guessNumber = function (n) {
     return left;
 };
 
-console.log(guessNumber(pick))
+console.log(guessNumber(pick));
