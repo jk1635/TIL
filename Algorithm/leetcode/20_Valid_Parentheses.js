@@ -15,6 +15,7 @@ const s = "()"; // true
 // const s = "()[]{}"; // true
 // const s = "(]"; // false
 
+// 1-1.
 const isValid = function (s) {
     const stack = [];
 
@@ -29,6 +30,38 @@ const isValid = function (s) {
             stack.pop();
         }
     }
+    return stack.length === 0;
+};
+
+console.log(isValid(s));
+
+// 1-2.
+const isValid = function (s) {
+    if (s.length % 2 !== 0) {
+        return false;
+    }
+
+    const stack = [];
+
+    const char = {
+        "(": ")",
+        "{": "}",
+        "[": "]",
+    };
+
+    for (let i = 0; i < s.length; i++) {
+        const currentChar = s[i];
+
+        if (char[currentChar]) {
+            stack.push(currentChar);
+        } else {
+            const lastChar = stack.pop();
+            if (char[lastChar] !== currentChar) {
+                return false;
+            }
+        }
+    }
+
     return stack.length === 0;
 };
 
