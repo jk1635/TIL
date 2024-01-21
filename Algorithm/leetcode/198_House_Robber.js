@@ -16,7 +16,7 @@ const rob = function (nums) {
     let previousMax = 0;
 
     for (let i = 0; i < nums.length; i++) {
-        let temp = Math.max(nums[i] + previousMax, currentMax);
+        const temp = Math.max(nums[i] + previousMax, currentMax);
         previousMax = currentMax;
         currentMax = temp;
     }
