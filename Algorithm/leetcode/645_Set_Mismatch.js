@@ -14,17 +14,19 @@ const nums = [1, 2, 2, 4]; // [2, 3]
 
 const findErrorNums = function (nums) {
     const result = [];
+    const setNums = new Set(nums);
 
-    nums = nums.sort((a,b) => a - b);
+    nums = nums.sort((a, b) => a - b);
 
     for (let i = 0; i < nums.length; i++) {
         if (nums[i] === nums[i + 1]) {
             result[0] = nums[i];
+            break;
         }
     }
 
     for (let i = 1; i <= nums.length; i++) {
-        if (!nums.includes(i)) {
+        if (!setNums.has(i)) {
             result[1] = i;
             break;
         }
