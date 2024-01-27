@@ -28,6 +28,7 @@ const deleteDuplicates = function (head) {
     if (!head) {
         return null;
     }
+
     let current = head;
 
     while (current && current.next) {
