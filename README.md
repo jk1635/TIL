@@ -1,49 +1,15 @@
 # TIL
 
 <!-- index starts -->
-## Vscode
-
-* [ES7 React/Redux/GraphQL/React-Native snippets](https://github.com/greencoffee1635/TIL/blob/main/Vscode/2021-07-26-Vscode-shortcut-keys.md) - 2021-09-01
-* [Vscode에서 HTML 확장자를 Django로 인식](https://github.com/greencoffee1635/TIL/blob/main/Vscode/2021-08-30-Vscode-HTML-files-recognized-as-Django-template.md) - 2021-09-01
-
-## Git
-
-* [Rename Local and Remote Branch](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-08-26-Git-Rename-Local-and-Remote-Branch.md) - 2021-09-01
-* [Create Github pages with Jekyll](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-06-13-Git-Jekyll-Theme.md) - 2021-09-01
-* [Move Repository](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-08-25-Git-move-repository.md) - 2021-09-01
-* [Create Branch for Project](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-07-16-Git-Create-Branch-for-Project.md) - 2021-09-01
-* [Github Upload](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-06-20-Git-upload.md) - 2021-09-01
-* [Change a commit message](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-07-15-Git-changing-a-commit-message.md) - 2021-09-01
-* [Transfer repository from GitLab to GitHub](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-09-28-Transfer-repository-from-GitLab-to-GitHub.md) - 2021-09-29
-* [Change Author of a commit after push](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-09-29-Change-the-author-of-a-commit.md) - 2021-09-29
-* [Reset to previous state](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-10-12-Git-reset-to-previous-state.md) - 2021-10-12
-* [Git commit cancle before push](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-10-31-Git-commit-cancle-before-push.md) - 2021-10-31
-* [Change commit description](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-11-01-Change-commit-description.md) - 2021-11-01
-* [How to use a .gitignore file](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-11-04-Git-ignore.md) - 2021-11-04
-* [Deleting folders and files in github](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-11-08-Delete-folders-and-files.md) - 2021-11-11
-* [A quick guide for how to merge](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-12-01-How-to-merge-two-branches.md) - 2021-12-01
-* [로컬 저장소 remote repository 바꾸기](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-12-03-Change-git-remote.md) - 2021-12-03
-* [Increase the POST buffer size in Git](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-12-08-Increase-postBuffer-size-in-git.md) - 2021-12-08
-* [How to remove large files from commit history](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-01-16-How-to-remove-large-files-from-commit-history.md) - 2022-01-17
-* [Git push error - Permission denied](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-02-13-Permission-denied-error.md) - 2022-02-13
-* [README badge setting example](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-03-13-README-badge-setting.md) - 2022-03-22
-* [Quick setup](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-03-25-Quick-setup.md) - 2022-03-25
-* [Github readme stats sample](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-04-16-Github-readme-stats-sample.md) - 2022-04-18
-* [Set Github Actions Bot](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-05-04-Set-github-actions-bot.md) - 2022-05-05
-* [Git push rejected error](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-06-14-Git-push-rejected-error.md) - 2022-05-15
-* [Use README Bot](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-05-15-Use-README-Bot.md) - 2022-05-15
-* [Example Workflow in Github Actions](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-05-16-Workflow-flow.md) - 2022-05-16
-* [Split Subdirectory into New Repository](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-06-12-Git-Subtree-split.md) - 2022-06-13
-
 ## React
 
+* [Why use React components](https://github.com/greencoffee1635/TIL/blob/main/React/2021-07-13-Why-use-React-components.md) - 2021-09-01
+* [Redux Modules](https://github.com/greencoffee1635/TIL/blob/main/React/2021-07-04-Redux.md) - 2021-09-01
+* [Auto Complete](https://github.com/greencoffee1635/TIL/blob/main/React/2021-08-03-Auto-complete.md) - 2021-09-01
+* [Position Sticky](https://github.com/greencoffee1635/TIL/blob/main/React/2021-07-17-Position-Sticky.md) - 2021-09-01
+* [Convert A List of Strings to Ints (LocationCode)](https://github.com/greencoffee1635/TIL/blob/main/React/2021-08-06-Convert-A-List-of-Strings-to-Ints(LocationCode).md) - 2021-09-01
 * [Differences between Class Components and Functional Components](https://github.com/greencoffee1635/TIL/blob/main/React/2021-07-12-Class-Components-vs-Functional-Components-in-React.md) - 2021-09-01
 * [Cards Layout](https://github.com/greencoffee1635/TIL/blob/main/React/2021-07-18-Cards-Layout.md) - 2021-09-01
-* [Position Sticky](https://github.com/greencoffee1635/TIL/blob/main/React/2021-07-17-Position-Sticky.md) - 2021-09-01
-* [Auto Complete](https://github.com/greencoffee1635/TIL/blob/main/React/2021-08-03-Auto-complete.md) - 2021-09-01
-* [Convert A List of Strings to Ints (LocationCode)](https://github.com/greencoffee1635/TIL/blob/main/React/2021-08-06-Convert-A-List-of-Strings-to-Ints(LocationCode).md) - 2021-09-01
-* [Redux Modules](https://github.com/greencoffee1635/TIL/blob/main/React/2021-07-04-Redux.md) - 2021-09-01
-* [Why use React components](https://github.com/greencoffee1635/TIL/blob/main/React/2021-07-13-Why-use-React-components.md) - 2021-09-01
 * [Fade-in / Fade-out](https://github.com/greencoffee1635/TIL/blob/main/React/2021-09-25-Fade-in-Fade-out-text-in-react.md) - 2021-09-29
 * [Event Handling in React](https://github.com/greencoffee1635/TIL/blob/main/React/2021-10-11-Event-Handling-in-React.md) - 2021-10-11
 * [export default vs export](https://github.com/greencoffee1635/TIL/blob/main/React/2021-10-14-Difference-between-export-default-and-export.md) - 2021-10-15
@@ -72,6 +38,17 @@
 * [Counting Up Animation using React Hooks](https://github.com/greencoffee1635/TIL/blob/main/React/2022-06-27-Count-Up-Animation-using-React-Hooks.md) - 2022-07-09
 * [Clear Cache in npm](https://github.com/greencoffee1635/TIL/blob/main/React/2022-08-08-Clear-cache-in-npm.md) - 2022-08-08
 
+## JS
+
+* [Const vs Let](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-08-24-const-vs-let.md) - 2021-09-01
+* [Arrow Function](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-07-10-JS-arrow-function.md) - 2021-09-01
+* [Object&#44; Function&#44; Conditional](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-08-25-JS-object-return-conditional.md) - 2021-09-01
+* [Math random and Math floor](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-09-06-Math-random-and-Math-floor-in-JS.md) - 2021-09-06
+* [jQuery Event Methods](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-09-28-Use-jquery-event-methods.md) - 2021-09-29
+* [Change value of object](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-10-08-Change-object-value-in-array.md) - 2021-10-09
+* [Window Resize Event in JavaScript](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-08-27-Window-Resize-Event.md) - 2022-05-15
+* [Counting Animation](https://github.com/greencoffee1635/TIL/blob/main/JS/2022-06-25-Count-up-tutorial.md) - 2022-06-25
+
 ## Python
 
 * [Install Python](https://github.com/greencoffee1635/TIL/blob/main/Python/2021-06-16-Python-Anaconda3.md) - 2021-09-01
@@ -83,16 +60,39 @@
 * [How to prevent Google Colab from disconnecting on a timeout](https://github.com/greencoffee1635/TIL/blob/main/Python/2021-12-11-How-to-prevent-colab-from-disconnecting.md) - 2021-12-12
 * [Sort Tuples in Increasing Order](https://github.com/greencoffee1635/TIL/blob/main/Python/2022-04-29-Sort-Tuples-in-Increasing-Order.md) - 2022-04-30
 
-## JS
+## Vscode
 
-* [Const vs Let](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-08-24-const-vs-let.md) - 2021-09-01
-* [Arrow Function](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-07-10-JS-arrow-function.md) - 2021-09-01
-* [Object&#44; Function&#44; Conditional](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-08-25-JS-object-return-conditional.md) - 2021-09-01
-* [Math random and Math floor](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-09-06-Math-random-and-Math-floor-in-JS.md) - 2021-09-06
-* [jQuery Event Methods](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-09-28-Use-jquery-event-methods.md) - 2021-09-29
-* [Change value of object](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-10-08-Change-object-value-in-array.md) - 2021-10-09
-* [Window Resize Event in JavaScript](https://github.com/greencoffee1635/TIL/blob/main/JS/2021-08-27-Window-Resize-Event.md) - 2022-05-15
-* [Counting Animation](https://github.com/greencoffee1635/TIL/blob/main/JS/2022-06-25-Count-up-tutorial.md) - 2022-06-25
+* [Vscode에서 HTML 확장자를 Django로 인식](https://github.com/greencoffee1635/TIL/blob/main/Vscode/2021-08-30-Vscode-HTML-files-recognized-as-Django-template.md) - 2021-09-01
+* [ES7 React/Redux/GraphQL/React-Native snippets](https://github.com/greencoffee1635/TIL/blob/main/Vscode/2021-07-26-Vscode-shortcut-keys.md) - 2021-09-01
+
+## Git
+
+* [Move Repository](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-08-25-Git-move-repository.md) - 2021-09-01
+* [Github Upload](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-06-20-Git-upload.md) - 2021-09-01
+* [Create Branch for Project](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-07-16-Git-Create-Branch-for-Project.md) - 2021-09-01
+* [Rename Local and Remote Branch](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-08-26-Git-Rename-Local-and-Remote-Branch.md) - 2021-09-01
+* [Create Github pages with Jekyll](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-06-13-Git-Jekyll-Theme.md) - 2021-09-01
+* [Change a commit message](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-07-15-Git-changing-a-commit-message.md) - 2021-09-01
+* [Transfer repository from GitLab to GitHub](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-09-28-Transfer-repository-from-GitLab-to-GitHub.md) - 2021-09-29
+* [Change Author of a commit after push](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-09-29-Change-the-author-of-a-commit.md) - 2021-09-29
+* [Reset to previous state](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-10-12-Git-reset-to-previous-state.md) - 2021-10-12
+* [Git commit cancle before push](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-10-31-Git-commit-cancle-before-push.md) - 2021-10-31
+* [Change commit description](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-11-01-Change-commit-description.md) - 2021-11-01
+* [How to use a .gitignore file](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-11-04-Git-ignore.md) - 2021-11-04
+* [Deleting folders and files in github](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-11-08-Delete-folders-and-files.md) - 2021-11-11
+* [A quick guide for how to merge](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-12-01-How-to-merge-two-branches.md) - 2021-12-01
+* [로컬 저장소 remote repository 바꾸기](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-12-03-Change-git-remote.md) - 2021-12-03
+* [Increase the POST buffer size in Git](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-12-08-Increase-postBuffer-size-in-git.md) - 2021-12-08
+* [How to remove large files from commit history](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-01-16-How-to-remove-large-files-from-commit-history.md) - 2022-01-17
+* [Git push error - Permission denied](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-02-13-Permission-denied-error.md) - 2022-02-13
+* [README badge setting example](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-03-13-README-badge-setting.md) - 2022-03-22
+* [Quick setup](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-03-25-Quick-setup.md) - 2022-03-25
+* [Github readme stats sample](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-04-16-Github-readme-stats-sample.md) - 2022-04-18
+* [Set Github Actions Bot](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-05-04-Set-github-actions-bot.md) - 2022-05-05
+* [Git push rejected error](https://github.com/greencoffee1635/TIL/blob/main/Git/2021-06-14-Git-push-rejected-error.md) - 2022-05-15
+* [Use README Bot](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-05-15-Use-README-Bot.md) - 2022-05-15
+* [Example Workflow in Github Actions](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-05-16-Workflow-flow.md) - 2022-05-16
+* [Split Subdirectory into New Repository](https://github.com/greencoffee1635/TIL/blob/main/Git/2022-06-12-Git-Subtree-split.md) - 2022-06-13
 
 ## CSS
 
