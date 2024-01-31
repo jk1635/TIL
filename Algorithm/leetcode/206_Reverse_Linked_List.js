@@ -15,6 +15,8 @@
  * @return {ListNode}
  */
 
+const { reverseLinkedList, listToArray } = require('../../docs/algorithmUtils');
+
 const head = [1, 2, 3, 4, 5]; // [5, 4, 3, 2, 1]
 // const head = [1, 2]; // [2, 1]
 // const head = []; // []
@@ -31,3 +33,8 @@ const reverseList = function (head) {
     }
     return previous;
 };
+
+const reversedList = reverseList(reverseLinkedList(head));
+const result = listToArray(reversedList);
+
+console.log(result);
