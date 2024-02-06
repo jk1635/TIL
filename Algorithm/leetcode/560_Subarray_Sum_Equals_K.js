@@ -31,10 +31,8 @@ const subarraySum = function (nums, k) {
             count++;
         }
 
-        if (!map[sum]) {
-            map[sum] = 0;
-            map[sum]++;
-        }
+        map[sum] = (map[sum] || 0) + 1;
+
     }
 
     return count;
