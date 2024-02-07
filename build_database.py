@@ -38,7 +38,7 @@ def build_database(repo_path):
         title = fp.readline().lstrip("#").strip()
         body = fp.read().strip()
         path = str(filepath.relative_to(root))
-        url = "https://github.com/greencoffee1635/TIL/blob/main/{}".format(
+        url = "https://github.com/jk1635/TIL/blob/main/{}".format(
             path)
         record = {
             "path": path.replace("/", "_"),
