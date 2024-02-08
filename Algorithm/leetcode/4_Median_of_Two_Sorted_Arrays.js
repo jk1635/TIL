@@ -14,7 +14,7 @@ const nums2 = [2]; // 2.00000
  * @return {number}
  */
 
-// 1. Current time complexity is O((n+m) log(n+m)), but needs to be O(log(n+m)).
+// 1. TODO: Current time complexity is O((n+m) log(n+m)), but needs to be O(log(n+m)).
 const findMedianSortedArrays = function (nums1, nums2) {
     const mergedNum = nums1.concat(nums2);
     mergedNum.sort((a, b) => a - b);
