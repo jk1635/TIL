@@ -1,3 +1,5 @@
+// TODO: Need to solve
+
 // https://leetcode.com/problems/merge-two-sorted-lists
 
 // You are given the heads of two sorted linked lists list1 and list2.
@@ -18,12 +20,17 @@
  * @return {ListNode}
  */
 
-const list1 = [1, 2, 4];
-const list2 = [1, 3, 4]; // [1, 1, 2, 3, 4, 4]
-// const list1 = [];
-// const list2 = []; // []
-// const list1 = [];
-// const list2 = [0]; // [0]
+const { arrayToList21, listToArray21 } = require('../../docs/algorithmUtils');
+
+const array1 = [1, 2, 4];
+const array2 = [1, 3, 4]; // [1, 1, 2, 3, 4, 4]
+// const array1 = [];
+// const array2 = []; // []
+// const array1 = [];
+// const array2 = [0]; // [0]
+
+const list1 = arrayToList21(array1);
+const list2 = arrayToList21(array2);
 
 const mergeTwoLists = function (list1, list2) {
     if (!list1) {
@@ -42,3 +49,5 @@ const mergeTwoLists = function (list1, list2) {
         return list2;
     }
 };
+
+console.log(listToArray21(mergeTwoLists(list1, list2)));

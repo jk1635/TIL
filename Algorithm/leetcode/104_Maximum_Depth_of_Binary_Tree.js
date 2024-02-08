@@ -1,3 +1,5 @@
+// TODO: Need to solve
+
 // https://leetcode.com/problems/maximum-depth-of-binary-tree
 
 // Given the root of a binary tree, return its maximum depth.
@@ -18,10 +20,10 @@
  * @return {number}
  */
 
-const { maximumDepthOfBinaryTreeGenerator } = require('../../docs/algorithmUtils');
+const { generator104 } = require('../../docs/algorithmUtils');
 
-const root = maximumDepthOfBinaryTreeGenerator([3, 9, 20, null, null, 15, 7]); // 3
-// const root = maximumDepthOfBinaryTreeGenerator([1, null, 2]); // 2
+const root = generator104([3, 9, 20, null, null, 15, 7]); // 3
+// const root = generator104([1, null, 2]); // 2
 
 const maxDepth = function (root) {
     if (root === null) {

@@ -1,3 +1,5 @@
+// TODO: Need to solve
+
 // https://leetcode.com/problems/reverse-linked-list
 
 // Given the head of a singly linked list, reverse the list, and return the reversed list.
@@ -15,7 +17,7 @@
  * @return {ListNode}
  */
 
-const { reverseLinkedList, listToArray } = require('../../docs/algorithmUtils');
+const { arrayToLinkedList206, listToArray206 } = require('../../docs/algorithmUtils');
 
 const head = [1, 2, 3, 4, 5]; // [5, 4, 3, 2, 1]
 // const head = [1, 2]; // [2, 1]
@@ -34,7 +36,6 @@ const reverseList = function (head) {
     return previous;
 };
 
-const reversedList = reverseList(reverseLinkedList(head));
-const result = listToArray(reversedList);
+const reversedList = reverseList(arrayToLinkedList206(head));
 
-console.log(result);
+console.log(listToArray206(reversedList));

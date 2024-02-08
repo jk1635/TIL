@@ -1,3 +1,5 @@
+// TODO: Need to solve
+
 // https://leetcode.com/problems/leaf-similar-trees
 
 // Consider all the leaves of a binary tree, from left to right order, the values of those leaves form a leaf value sequence.
@@ -19,15 +21,15 @@
  * @return {boolean}
  */
 
-const { leafSimilarGenerator } = require('../../docs/algorithmUtils');
+const { generator872 } = require('../../docs/algorithmUtils');
 
 const array1 = [3, 5, 1, 6, 2, 9, 8, null, null, 7, 4];
 const array2 = [3, 5, 1, 6, 7, 4, 2, null, null, null, null, null, null, 9, 8]; // true
 // const array1 = [1, 2, 3];
 // const array2 = [1, 3, 2]; // false
 
-const root1 = leafSimilarGenerator(array1);
-const root2 = leafSimilarGenerator(array2);
+const root1 = generator872(array1);
+const root2 = generator872(array2);
 
 const leafSimilar  = function(root1, root2) {
     const leaves1 = [];
