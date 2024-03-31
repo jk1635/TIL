@@ -83,6 +83,7 @@
 * [Counting Up Animation using React Hooks](https://github.com/jk1635/TIL/blob/main/React/2022-06-27-Count-Up-Animation-using-React-Hooks.md) - 2022-07-09
 * [Clear Cache in npm](https://github.com/jk1635/TIL/blob/main/React/2022-08-08-Clear-cache-in-npm.md) - 2022-08-08
 * [Handling Input Events with Higher Order Function](https://github.com/jk1635/TIL/blob/main/React/2024-03-24-Handling-Input-Event-with-Higher-Order-Function.md) - 2024-03-24
+* [Apply Debouncing to Search with React Query](https://github.com/jk1635/TIL/blob/main/React/2024-03-31-Apply-Debouncing-to-Search-with-React-Query.md) - 2024-03-31
 
 ## Python
 
